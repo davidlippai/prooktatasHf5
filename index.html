@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+        <title>David Lippai Hf5</title>
+    </head>
+    <body>
+        <div id="container">
+            <header></header>
+            <aside>
+                <a href="#firstSection">Balaton</a>
+                <a href="#secondSection">Tisza-tó</a>
+                <a href="#thirdSection">Szelidi-tó</a>
+                <form action="">
+                    <h3>Kérem töltse ki a jelentkezési űrlapot</h3>
+                    <hr />
+                    <label for="name">Név</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="John Doe"
+                        required
+                    />
+                    <label for="email">E-mail cím</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="johndoe@pelda.com"
+                        required
+                    />
+                    <label for="tel">Telefonszám</label>
+                    <input
+                        type="tel"
+                        id="tel"
+                        name="tel"
+                        placeholder="06-70-123-4567"
+                        required
+                    />
+                    <label for="whichLake">Melyik tó érdekli?</label>
+                    <select id="whichLake">
+                        <option value="Balaton">Balaton</option>
+                        <option value="Balaton">Tisza-tó</option>
+                        <option value="Balaton">Szelidi-tó</option>
+                    </select>
+                    <div class="whichAcco">
+                        <h4>Milyen szállást keres?</h4>
+                        <label for="hotel">Hotel</label>
+                        <input
+                            type="checkbox"
+                            id="hotel"
+                            name="hotel"
+                            value="Hotel"
+                        />
+                        <label for="apartmanhouse">Apartmanház</label>
+                        <input
+                            type="checkbox"
+                            id="apartmanhouse"
+                            name="apartmanhouse"
+                            value="Apartmanház"
+                        />
+                        <label for="kemping">Kemping</label>
+                        <input
+                            type="checkbox"
+                            id="camping"
+                            name="camping"
+                            value="Kemping"
+                        />
+                    </div>
+                    <div class="whichSupply">
+                        <h4>Milyen ellátás legyen?</h4>
+                        <label for="supply">Teljes</label>
+                        <input
+                            type="radio"
+                            id="fullSupply"
+                            name="supply"
+                            value="teljes"
+                        />
+                        <label for="supply">Fél panzió</label>
+
+                        <input
+                            type="radio"
+                            id="halfSupply"
+                            name="supply"
+                            value="fel_panzio"
+                        />
+                        <label for="supply">Csak reggeli</label>
+                        <input
+                            type="radio"
+                            id="onlyBreakfast"
+                            name="supply"
+                            value="Csak Reggeli"
+                        />
+                        <label for="supply">Nem kérek ellátást</label>
+                        <input
+                            type="radio"
+                            id="noSupply"
+                            name="supply"
+                            value="Nincs ellátás"
+                        />
+                    </div>
+                    <textarea
+                        maxlength="150"
+                        placeholder="Kérjük lépjen kapcsolatba velünk..."
+                    ></textarea>
+                    <input
+                        type="submit"
+                        id="subBtn"
+                        name="subBtn"
+                        value="Elküld"
+                    />
+                </form>
+            </aside>
+            <section id="firstSection">
+                <h2>Balaton</h2>
+                <article>
+                    <figure>
+                        <img
+                            class="articleImg"
+                            src="img/balaton.jpg"
+                            alt="Balaton"
+                        />
+                        <figcaption>Balaton</figcaption>
+                    </figure>
+                    <p>
+                        A Balaton (költői nevén „a magyar tenger”,[4][5]
+                        becenevén Balcsi, németül: Plattensee, latinul: Lacus
+                        Pelso, horvátul: Blatno jezero) tó a Dunántúlon,
+                        Közép-Európa legnagyobb tava, Magyarország vízrajzának
+                        meghatározó eleme. Könnyen felmelegedő, sekély vize
+                        kiválóan alkalmassá teszi a fürdésre és sportolásra,
+                        élővilága rendkívül gazdag, a táj változatos vulkanikus
+                        kúpjaival sok tekintetben egyedi.[6] Típusa geológiailag
+                        a Velencei-tóhoz hasonlóan tektonikus eredetű, sekély
+                        vizű ároktó. 77 km hosszú, legkisebb szélessége
+                        Tihanynál 1,5 km, legnagyobb 12,7 km Balatonvilágos és
+                        Balatonalmádi között,[7] átlagos szélessége 7,7 km,
+                        felülete 600 km².[2] Legmélyebb pontja a Tihanyi-szoros
+                        legmélyebb árkában az úgynevezett a „Tihanyi-kút”, ahol
+                        a tó medre 11-12,5 méter mélyen van.[3][8][9] Más forrás
+                        szerint a kút mélysége 10,67 méter. A Szántód-Tihany
+                        kompjárat[10] útvonalától mintegy 100-150 méterre
+                        keletre, a parttól körülbelül 300 méterre van.[11]
+                    </p>
+                </article>
+            </section>
+            <section id="secondSection">
+                <h2>Tisza-tó</h2>
+                <article>
+                    <figure>
+                        <img
+                            class="articleImg"
+                            src="img/tiszato.jpg"
+                            alt="Tisza-Tó"
+                        />
+                        <figcaption>Tisza-tó</figcaption>
+                    </figure>
+                    <p>
+                        A Tisza-tó (1988-ig Kiskörei víztározó) Magyarország
+                        második legnagyobb tava és legnagyobb mesterséges tava a
+                        Tiszán, az Alföld északi részén. Létrehozásának
+                        legfontosabb okai a Kiskörei Vízerőmű működéséhez
+                        szükséges egyenletes vízhozam biztosítása volt, valamint
+                        az ugyanebben az időszakban, Tiszaújvárosban telepített
+                        új Tiszai Hőerőmű működéséhez szükséges magas vízszint
+                        biztosítása duzzasztással
+                    </p>
+                </article>
+            </section>
+            <section id="thirdSection">
+                <h2>Szelidi-tó</h2>
+                <article>
+                    <figure>
+                        <img
+                            class="articleImg"
+                            src="img/szelidito.jpg"
+                            alt="Szelidi-tó"
+                        />
+                        <figcaption>Szelidi-tó</figcaption>
+                    </figure>
+                    <p>
+                        A Szelidi-tó 5 kilométer hosszú, 150–200 méter széles,
+                        3–4 méter mély, vízfelülete megközelítőleg 80 hektár,
+                        ezzel hazánk ötödik legnagyobb természetes tava.
+                        Bács-Kiskun megye Kalocsai járásában, Dunapataj
+                        nagyközség külterületén található, mintegy 3 kilométerre
+                        Újtelek községtől északra, a Dunapatajt Szakmáron át
+                        Kalocsa keleti részeivel összekötő 5308-as útról letérve
+                        közelíthető meg. A tó déli partján, nyugalomba jutott
+                        futóhomok területein kellemes strandok kerültek
+                        kialakításra.
+                    </p>
+                </article>
+            </section>
+            <footer>
+                Footer Helye
+                <a href="#container"
+                    ><span id="backTop">Back to The Top</span></a
+                >
+            </footer>
+        </div>
+    </body>
+</html>

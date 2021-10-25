@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #d7b520;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    scroll-behavior: smooth;
+}
+
+div#container {
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    border: solid 2px #ddd;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: calc(1rem * 1.2);
+    font-style: italic;
+    margin: 1rem;
+}
+
+h3 {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+hr {
+    margin: 1rem;
+    border: solid 1px black;
+}
+
+/*=================HEADER==================*/
+
+header {
+    background-image: url(../img/strandHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 13.5vh;
+    margin-bottom: 1rem;
+    border-radius: 1.5em;
+    padding: 1rem;
+    border: 1px solid rgb(110, 145, 176);
+}
+
+img#headerImg {
+    width: 100%;
+}
+
+/*=================HEADER END==================*/
+
+/*=================ASIDE==================*/
+aside {
+    background-color: rgb(91, 155, 213);
+    width: 30%;
+    float: left;
+    border-radius: 1.5em;
+    padding: 1rem;
+    border: 1px solid rgb(110, 145, 176);
+    position: sticky;
+    top: -11rem;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 31%;
+    text-align: center;
+}
+
+aside a:hover {
+    color: rgb(82, 81, 81);
+}
+
+/*=============F.O.R.M.==================*/
+form {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+}
+
+input,
+label {
+    display: block;
+    letter-spacing: 0.1rem;
+}
+
+input#name,
+input#email,
+input#tel {
+    width: 80%;
+    padding: 0.3rem;
+    margin-bottom: 0.8rem;
+}
+
+select#whichLake {
+    padding: 0.3rem;
+    margin: 0 auto 0.8rem 0;
+}
+
+div.whichAcco {
+    background-color: rgb(45, 101, 151);
+    padding: 0.5rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    color: rgba(255, 255, 255, 0.829);
+    margin: 0.5rem auto;
+}
+
+div.whichAcco h4 {
+    font-weight: normal;
+}
+
+div.whichSupply {
+    padding: 0.5rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+    margin: 0.5rem auto;
+    background-color: rgb(133, 191, 241);
+}
+
+textarea {
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 12vh;
+    max-height: 12vh;
+}
+
+input#subBtn {
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    background-color: rgb(51, 99, 153);
+    color: white;
+}
+
+/*=================ASIDE END==================*/
+
+/*=================SECTION COMMON==================*/
+
+section {
+    float: right;
+    margin-bottom: 1vh;
+    border-radius: 1.5em;
+    padding: 1rem;
+    border: 1px solid rgb(110, 145, 176);
+}
+
+/*=================SECTION COMMON END==================*/
+
+/*=================FIRST SECTION==================*/
+section#firstSection {
+    background-color: rgb(251, 229, 214);
+    width: 68%;
+}
+
+.articleImg {
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: right;
+    font-style: italic;
+}
+
+figure {
+    display: inline;
+    float: right;
+    margin: 0.5rem;
+}
+
+/*=================FIRST SECTION END==================*/
+
+/*=================SECOND SECTION==================*/
+
+section#secondSection {
+    background-color: rgb(255, 242, 204);
+    width: 68%;
+}
+
+/*=================SECOND SECTION END==================*/
+
+/*=================THIRD SECTION==================*/
+section#thirdSection {
+    background-color: rgb(221, 235, 247);
+    width: 68%;
+    margin-bottom: 1rem;
+}
+
+/*=================THIRD SECTION END==================*/
+
+/*=================FOOTER==================*/
+footer {
+    background: rgb(231, 230, 230);
+    height: auto;
+    clear: right;
+    height: 13.5vh;
+    border-radius: 1.5em;
+    padding: 1rem;
+    border: 1px solid rgb(110, 145, 176);
+    position: relative;
+}
+
+span#backTop {
+    display: block;
+    text-align: right;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+/*=================FOOTER END==================*/
